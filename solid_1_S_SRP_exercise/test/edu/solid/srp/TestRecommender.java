@@ -32,7 +32,6 @@ public class TestRecommender {
 		String expected = "Saving Private Ryan,Spielberg,war";
 		
 		Assert.assertEquals(expected, csv);
-
 	}
 
 }

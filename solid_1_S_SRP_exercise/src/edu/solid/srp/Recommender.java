@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 public class Recommender {
 
 	public List<Movie> recommendations (Client client) {
-		
 		List<Movie> recommended = new ArrayList<>();
 		
 		for (Movie favorite: client.getFavorites()) {
