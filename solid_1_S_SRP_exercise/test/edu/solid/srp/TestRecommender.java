@@ -4,10 +4,6 @@ import java.util.List;
 
 import org.junit.Test;
 
-import edu.solid.srp.BBDD;
-import edu.solid.srp.Movie;
-import edu.solid.srp.Recommender;
-
 import org.junit.Assert;
 
 public class TestRecommender {
