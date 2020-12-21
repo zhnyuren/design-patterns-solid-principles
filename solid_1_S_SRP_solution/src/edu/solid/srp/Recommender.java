@@ -13,9 +13,10 @@ public class Recommender {
 		for (Movie favorite: client.getFavorites()) {
 			recommended.addAll(BBDD.MOVIES_BY_DIRECTOR.get(favorite.getDirector()));
 		}
+		
 		recommended.removeAll(client.getFavorites());
 		
 		return recommended;
 	}
-
+	
 }

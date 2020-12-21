@@ -21,5 +21,6 @@ public class BBDD {
 	
 	public static Map<String, List<Movie>> MOVIES_BY_DIRECTOR = Arrays.stream(ALL)
 			.collect(Collectors.groupingBy(Movie::getDirector));
-
+			
+	
 }

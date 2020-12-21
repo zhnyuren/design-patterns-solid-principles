@@ -20,5 +20,6 @@ public class Client {
 	public List<Movie> getFavorites() {
 		return favorites;
 	}
-
+	
+	
 }
