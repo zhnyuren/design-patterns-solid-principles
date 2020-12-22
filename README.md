@@ -14,4 +14,6 @@
 
 - Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 
-- Should involve abstract class or interface while dealing with polymorphism to avoid violating LSP. 
+- Should leverage abstract class or interface while dealing with polymorphism to avoid violating LSP. 
+
+- Composition over inheritance - Effective Java
